@@ -34,8 +34,11 @@ export function Navbar({ theme }: Props) {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#home" className="group flex items-center gap-2.5" onClick={() => setOpen(false)}>
           <span className="h-9 w-9 overflow-hidden rounded-lg ring-2 ring-azure-400/60 shadow-glow">
-            <img src="/Untitled-1.jpg" alt="Mohamed Essam" className="h-full w-full object-cover object-top" />
-          </span>
+                      <img
+                          src={`${import.meta.env.BASE_URL}Untitled-1.jpg`}
+                          alt="Mohamed Essam"
+                          className="h-full w-full object-cover object-top"
+                      />          </span>
           <span className="font-display text-base font-semibold tracking-tight">
             Mohamed<span className="text-azure-400">.</span>Essam
           </span>

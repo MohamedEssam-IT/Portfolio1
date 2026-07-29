@@ -57,8 +57,7 @@ export function Hero() {
               {/* Photo */}
               <div className="relative overflow-hidden rounded-2xl aspect-[4/5] w-full">
                 <img
-                  src="/Untitled-1.jpg"
-                  alt="Mohamed Essam"
+                  src={`${import.meta.env.BASE_URL}Untitled-1.jpg`}                  alt="Mohamed Essam"
                   className="h-full w-full object-cover object-top"
                 />
                 {/* Bottom gradient fade */}
