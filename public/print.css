@@ -1,0 +1,16 @@
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+}

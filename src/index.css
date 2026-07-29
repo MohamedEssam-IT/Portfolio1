@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #020617;
+    --bg-soft: #0f172a;
+    --surface: rgba(15, 23, 42, 0.6);
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border: rgba(56, 189, 248, 0.14);
+    --azure: #0078d4;
+    --accent: #38bdf8;
+  }
+
+  .light {
+    --bg: #f6f9fd;
+    --bg-soft: #eef4fb;
+    --surface: rgba(255, 255, 255, 0.7);
+    --text: #0f172a;
+    --text-muted: #475569;
+    --border: rgba(0, 120, 212, 0.18);
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: rgba(0, 120, 212, 0.35);
+    color: #fff;
+  }
+}
+
+@layer components {
+  .glass {
+    background: var(--surface);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+  }
+
+  .text-gradient {
+    background: linear-gradient(120deg, #38bdf8 0%, #0078d4 55%, #006abe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-muted {
+    color: var(--text-muted);
+  }
+
+  .surface-bg {
+    background-color: var(--bg-soft);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0078d4, #38bdf8);
+  border-radius: 99px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #38bdf8, #0078d4);
+}
+
+/* Custom cursor element */
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 9999px;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+.cursor-dot {
+  width: 7px;
+  height: 7px;
+  background: #38bdf8;
+}
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 1.5px solid rgba(56, 189, 248, 0.7);
+  transition: width 0.2s, height 0.2s, background 0.2s;
+}
+
+/* Hide native cursor only on devices with a fine pointer */
+@media (pointer: fine) {
+  .cursor-active * {
+    cursor: none !important;
+  }
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
