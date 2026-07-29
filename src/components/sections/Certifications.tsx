@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { CheckCircle2, Clock } from 'lucide-react';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { SectionHeading } from '@/components/ui/SectionHeading';
@@ -49,21 +48,7 @@ export function Certifications() {
 
                   <p className="mt-4 text-sm leading-relaxed text-muted">{c.blurb}</p>
 
-                  {/* progress for in-progress certs */}
-                  {!earned && (
-                    <div className="mt-5">
-                      <div className="h-1.5 overflow-hidden rounded-full bg-ink-800/70">
-                        <motion.div
-                          className="h-full rounded-full bg-gradient-to-r from-amber-500 to-azure-400"
-                          initial={{ width: 0 }}
-                          whileInView={{ width: '55%' }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 1, delay: 0.2 }}
-                        />
-                      </div>
-                      <p className="mt-1.5 text-[11px] text-muted">In progress · actively studying</p>
-                    </div>
-                  )}
+
                 </GlassCard>
               </Reveal>
             );

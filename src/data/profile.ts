@@ -8,14 +8,13 @@ export const profile = {
   cvUrl: 'https://1drv.ms/b/c/4e7198a528d9cb8e/IQB4Zw8AJe0MRars5jv8zCqnARyw0nhuFbjhQXpw9jo_26k?e=UxrDAe',
   roles: ['Windows Server', 'Azure', 'Microsoft 365', 'Active Directory', 'Networking'],
   social: {
-    linkedin: 'https://www.linkedin.com/in/mohamed-essam',
+    linkedin: 'https://www.linkedin.com/in/mohammed-essaam/',
     github: 'https://github.com/mohamed-essam',
     email: 'mailto:muhaameed.essaam@gmail.com',
   },
   stats: [
     { label: 'Years in IT Infrastructure', value: 5, suffix: '+' },
     { label: 'Managed Users', value: 100, suffix: '+' },
-    { label: 'Projects Delivered', value: 9, suffix: '+' },
     { label: 'Servers & VMs Managed', value: 150, suffix: '+' },
   ],
 };
