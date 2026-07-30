@@ -125,12 +125,21 @@ export function Hero() {
             </motion.div>
 
             {/* Tagline */}
-            <motion.p
-              className="mt-4 max-w-2xl text-sm leading-relaxed text-muted sm:text-base"
-              custom={3} initial="hidden" animate="show" variants={fadeUp}
-            >
-              {profile.tagline}
-            </motion.p>
+                      <motion.div
+                          className="mt-4 max-w-2xl"
+                          custom={3}
+                          initial="hidden"
+                          animate="show"
+                          variants={fadeUp}
+                      >
+                          <h2 className="text-xl font-semibold text-white">
+                              {profile.tagline}
+                          </h2>
+
+                          <p className="mt-3 text-sm leading-relaxed text-muted sm:text-base">
+                              {profile.description}
+                          </p>
+                      </motion.div>
 
             {/* CTA row */}
             <motion.div
