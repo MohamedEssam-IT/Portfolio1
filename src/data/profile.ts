@@ -20,8 +20,10 @@ export const profile = {
   },
   stats: [
     { label: 'Years in IT Infrastructure', value: 7, suffix: '+' },
-    { label: 'Managed Users', value: 100, suffix: '+' },
+    { label: 'Support & Managed Users', value: 1000, suffix: '+' },
     { label: 'Servers & VMs Managed', value: 150, suffix: '+' },
+    { label: 'Support Tickets Resolved', value: 5000, suffix: '+' },
+
   ],
 };
 
