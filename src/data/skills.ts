@@ -26,12 +26,6 @@ export const skills: Skill[] = [
     blurb: 'Administration, GPO, FS, IIS, roles & features across 2016–2025.',
   },
   {
-    name: 'Microsoft Azure',
-    icon: FaCloud,
-    category: 'Cloud',
-    blurb: 'VMs, Policy, File Sync, VNet, RBAC, Storage, Cost governance.',
-  },
-  {
     name: 'Microsoft 365',
     icon: FaMicrosoft,
     category: 'Identity',
@@ -44,19 +38,7 @@ export const skills: Skill[] = [
     blurb: 'AD DS, OU design, GPO, delegated administration, trust topology.',
   },
   {
-    name: 'DNS',
-    icon: PiFoldersBold,
-    category: 'Networking',
-    blurb: 'Forward/reverse zones, conditional forwarding, split-horizon DNS.',
-  },
-  {
-    name: 'DHCP',
-    icon: PiHardDrivesBold,
-    category: 'Networking',
-    blurb: 'Scope design, reservations, failover, DHCP guard & policies.',
-  },
-  {
-    name: 'VMware',
+    name: 'VMware ESXI',
     icon: SiVmware,
     category: 'Infrastructure',
     blurb: 'ESXi, vCenter, vMotion, snapshots, resource pools.',
@@ -68,19 +50,25 @@ export const skills: Skill[] = [
     blurb: 'Cluster setup, live migration, virtual switches, checkpoints.',
   },
   {
+    name: 'Backup & Restore',
+    icon: PiHardDrivesBold,
+    category: 'Infrastructure',
+    blurb: '3-2-1 strategy, Azure Backup, Veeam-style DR, bare-metal recovery.',
+  },
+  {
     name: 'Networking',
     icon: FaNetworkWired,
     category: 'Networking',
-    blurb: 'VLANs, subnetting, routing, VPN, firewall & switching.',
+    blurb: 'DHCP Server, DNS, subnetting, routing, VPN, firewall & switching.',
   },
   {
     name: 'Cisco',
     icon: SiCisco,
     category: 'Networking',
-    blurb: 'IOS CLI, VLAN/trunk config, ACLs, static & dynamic routing.',
+    blurb: 'VLANs/trunk config, ACLs, static & dynamic routing.',
   },
   {
-    name: 'MikroTik',
+    name: 'Firewall',
     icon: FaNetworkWired,
     category: 'Networking',
     blurb: 'RouterOS, firewall, queues, VPN tunnels, bridge configuration.',
@@ -110,15 +98,15 @@ export const skills: Skill[] = [
     blurb: 'Sync groups, cloud tiering, server endpoints, multi-site replication.',
   },
   {
-    name: 'Backup & Restore',
-    icon: PiHardDrivesBold,
-    category: 'Infrastructure',
-    blurb: '3-2-1 strategy, Azure Backup, Veeam-style DR, bare-metal recovery.',
-  },
-  {
     name: 'Cloud Administration',
     icon: FaServer,
     category: 'Cloud',
     blurb: 'IaaS/PaaS operations, cost control, monitoring, security baseline.',
+  },
+ {
+    name: 'Ai Tools',
+    icon: FaServer,
+    category: 'Tools',
+    blurb: 'ChatGPT, Microsoft Copilot, GitHub Copilot, Perplexity AI, Claude AI,Google Gemini.',
   },
 ];
