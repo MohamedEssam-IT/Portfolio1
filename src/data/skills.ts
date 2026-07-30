@@ -109,4 +109,11 @@ export const skills: Skill[] = [
     category: 'Tools',
     blurb: 'ChatGPT, Microsoft Copilot, GitHub Copilot, Perplexity AI, Claude AI,Google Gemini.',
   },
+ {
+    name: 'RDP Tools',
+    icon: FaServer,
+    category: 'Tools',
+    blurb: 'RDP, Team Viewer, AnyDesk, Rustdesk, Chrome Remote Desktop.',
+  },
+
 ];
