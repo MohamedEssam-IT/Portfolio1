@@ -1,7 +1,8 @@
 export const profile = {
   name: 'Mohamed Essam',
   role: 'Cloud & System Administrator',
-  tagline: 'Designing, securing, and automating resilient cloud and on-premises infrastructure.',
+  tagline: 'IT Support Engineer | System Administrator | Azure Administrator.
+7+ years of experience in IT Support, Windows Server, Microsoft 365, Azure, Entra ID, Networking, and ERP Administration.',
   location: 'Saudi Arabia',
   email: 'muhaameed.essaam@gmail.com',
   phone: '+966 53 518 0185',
