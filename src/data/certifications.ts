@@ -46,7 +46,6 @@ export const certifications: Certification[] = [
     title: 'Microsoft 365 Administrator Expert',
     issuer: 'Microsoft',
     icon: FaMicrosoft,
-    status: 'In Progress',
     blurb: 'Designing and managing Microsoft 365 services, identity, compliance, and tenant-level operations.',
   },
   {
@@ -54,7 +53,6 @@ export const certifications: Certification[] = [
     title: 'Microsoft 365 Endpoint Administrator',
     issuer: 'Microsoft',
     icon: TbDeviceDesktop,
-    status: 'In Progress',
     blurb: 'Deploying, configuring, protecting, and managing devices and client applications with Intune.',
   },
   {
@@ -62,7 +60,6 @@ export const certifications: Certification[] = [
     title: 'Cisco Certified Network Associate',
     issuer: 'Cisco',
     icon: SiCisco,
-    status: 'In Progress',
     blurb: 'Fundamentals of networking: IP connectivity, services, security, automation, and programmability.',
   },
 ];
