@@ -39,7 +39,7 @@ export function Hero() {
 
           {/* ── Photo column ── */}
           <motion.div
-            className="order-1 w-full max-w-[150px] shrink-0 lg:order-1 lg:max-w-[170px] xl:max-w-[190px]"
+            className="order-1 w-full max-w-[220px] shrink-0 lg:order-1 lg:max-w-[280px] xl:max-w-[320px]"
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.1, ease }}
@@ -108,7 +108,7 @@ export function Hero() {
 
             {/* Heading */}
             <motion.h1
-              className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl xl:text-5xl"
+              className="mt-4 font-display text-5xl font-bold leading-tight tracking-tight sm:text-6xl xl:text-7xl"
               custom={1} initial="hidden" animate="show" variants={fadeUp}
             >
               Hi, I&apos;m{' '}
