@@ -9,11 +9,11 @@ export const profile = {
   roles: ['Windows Server', 'Azure', 'Microsoft 365', 'Active Directory', 'Networking'],
   social: {
     linkedin: 'https://www.linkedin.com/in/mohammed-essaam/',
-    github: 'https://github.com/mohamed-essam',
-    email: 'mailto:muhaameed.essaam@gmail.com',
+    github: 'https://github.com/MohamedEssam-IT',
+    email: 'mailto:muhaammed.essaam@gmail.com',
   },
   stats: [
-    { label: 'Years in IT Infrastructure', value: 5, suffix: '+' },
+    { label: 'Years in IT Infrastructure', value: 7, suffix: '+' },
     { label: 'Managed Users', value: 100, suffix: '+' },
     { label: 'Servers & VMs Managed', value: 150, suffix: '+' },
   ],
