@@ -111,7 +111,6 @@ export function Hero() {
               className="mt-4 font-display text-5xl font-bold leading-tight tracking-tight sm:text-6xl xl:text-7xl"
               custom={1} initial="hidden" animate="show" variants={fadeUp}
             >
-              Hi, I&apos;m{' '}
               <span className="text-gradient">Mohamed Essam</span>
             </motion.h1>
 
