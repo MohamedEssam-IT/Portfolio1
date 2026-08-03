@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
     company: 'Almaameer Company for Bakery & Pastry',
     role: 'IT Support & ERP System Admin',
     location: 'Al Khobar, Saudi Arabia',
-    dates: 'Feb 2024 — Present',
+    dates: 'Feb 2025 — Present',
     summary:
       'Own ERP and IT systems for a multi-site bakery operation, troubleshooting complex hardware, software, and network issues to keep production and retail running with minimal downtime.',
     achievements: [
@@ -74,7 +74,7 @@ export const experiences: Experience[] = [
     company: 'Orange Main Upper Site',
     role: 'Technical Network & Devices (IT Assistant)',
     location: 'Asyut, Egypt',
-    dates: 'Dec 2023 — Feb 2024',
+    dates: 'Dec 2023 — Jan 2025',
     summary:
       'Installed, configured, and supported network devices and endpoints, assisting with LAN/WAN connectivity and remote support operations.',
     achievements: [
@@ -103,7 +103,7 @@ export const experiences: Experience[] = [
     company: 'All In One for IT Solutions',
     role: 'Technical Network (Part-time)',
     location: 'Hurghada, Egypt',
-    dates: '2019 — 2022',
+    dates: '2019 — 2021',
     summary:
       'Provided network setup and troubleshooting support during study, including fiber optic infrastructure and wireless links.',
     achievements: [
