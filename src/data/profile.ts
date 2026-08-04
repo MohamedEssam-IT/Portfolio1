@@ -11,7 +11,7 @@ export const profile = {
   email: 'muhaameed.essaam@gmail.com',
   phone: '+966 53 518 0185',
 
-  cvUrl: 'https://1drv.ms/b/c/4e7198a528d9cb8e/IQB4Zw8AJe0MRars5jv8zCqnARyw0nhuFbjhQXpw9jo_26k?e=UxrDAe',
+  cvUrl: 'https://1drv.ms/b/c/4e7198a528d9cb8e/IQCnRSuu3-7fRKEAxgNDBecTAU39iBA_6ESJT4HjvnOueBA?e=ixhVw8',
   roles: ['Windows Server', 'Azure', 'Microsoft 365', 'Active Directory', 'Networking'],
   social: {
     linkedin: 'https://www.linkedin.com/in/mohammed-essaam/',
